@@ -1,0 +1,118 @@
+body,ul,li,h1,h2,a,footer{
+    margin:0;
+    padding:0;
+    font-family: arial;
+}
+header{
+    background-color:rgb(145, 18, 18);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+header h1{
+    color: white;
+    border:8px solid white;
+    padding: 6px 12px;
+    display:inline-block;
+    border-radius: 5px;
+}
+.banner{
+    position:realtive;
+}
+.banner img{
+    width: 100%;
+}
+.banner .Welcome{
+    background-color: rgb(145, 18, 18);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    left: 26%;
+    top: 50%;
+}
+.banner h2{
+    font-size: 32px;
+}
+main .images img{
+    width: 0.5px;
+}
+nav{
+    background-color: #f4f4f4;
+    padding: 15px;
+    position:sticky;
+    top: 102px;
+}
+nav ul{
+    white-space: nowrap;
+}
+nav li{
+    position:relative;
+    left: 640px;
+    width: 8%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: #141414;
+}
+main{
+    
+    max-width: 100%;
+    width: 1200px;
+    margin:80px auto;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+
+article h2{
+    color: #f63232;
+    text-decoration: underline;
+    font-size: 48px;
+}
+article p{
+    line-height: 2em;
+    color: #4b4b4b;
+}
+.images{
+    text-align: left;
+    margin:80px 0;
+}
+.images li{
+    display: inline-block;
+    width:40%
+}
+.images li img{
+    width:20%;
+
+}
+.Work{
+    max-width: 100%;
+    width: 1200px;
+    margin:80px auto;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+.Work h2{
+    color: #f63232;
+    text-decoration: underline;
+    font-size: 48px;
+}
+.Work p{
+    line-height: 2em;
+    color: #4b4b4b;
+}
+footer{
+    background-color:rgb(145, 18, 18);
+    padding: 20px;
+    text-align: center;
+   
+}
+footer p{
+    color: white;
+   
+}
